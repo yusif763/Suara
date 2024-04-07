@@ -16,19 +16,27 @@
 </head>
 
 <body>
-<div class="container">
-    <div class="logo-placeholder">
-        <img src="./assets/logo2.png" alt="logo" class="logo">
-        <h1>The new site under construction</h1>
-    </div>
-    <div class="content">
+    <div class="video-container" style="width: 100%; height: 100%;">
+        <video autoplay muted loop id="video-background" style="width: 100%; height: 100%;">
+          <source src="./assets/Underwater 2_1080p_12000br.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="content" style="position: absolute;">
+            <div class="container">
+                <div class="logo-placeholder">
+                    <img src="./assets/Suara_page-0001.png" alt="">
+                    <h1>The new site under construction</h1>
+                </div>
+                <div class="content-inner">
+            
+                    <h2>Website is going live in:</h2>
+                    <h2 id="time-circle"></h2>
+                </div>
+            
+            </div>
+        </div>
+      </div>
 
-        <h2>Website is going live in:</h2>
-        <h2 id="time-circle"></h2>
-    </div>
-
-</div>
-</div>
 
 <script src="./index.js"></script>
 </body>
